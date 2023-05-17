@@ -1,0 +1,12 @@
+
+main()
+    moneyDollar <- getdollars()
+    moneyEuros <- .873 * moneyDollars
+    PUT moneyEuros
+
+getLeapYear(year)
+    IF year % 4 != 0
+        RETURN false
+    IF year % 100 != 0
+        RETURN true
+    RETURN NOT year % 400
