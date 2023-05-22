@@ -1,0 +1,31 @@
+main()
+    PROMPT for JSON fileName
+    GET fileName
+
+    openfile(fileName)
+
+    PROMPT for targetWord
+    GET targetWord
+END
+
+
+open_file(filename)
+
+    OPEN file name as read only
+    READ contents of filename into array1
+    CLOSE fileName
+    RETURN array1
+
+END
+
+
+Search_Array(array1, targetWord)
+    index <- 0
+    halfPoint <- array1 max index / 2
+
+    WHILE (targetWord != array1[index])
+
+        IF targetWord
+    
+
+

@@ -1,0 +1,47 @@
+--------------search 1 to array end--------------
+
+search(array, searchvalue)
+
+for (i <- 0) in array
+
+    index += 1
+
+    if array1[index] == target
+        PUT found item at index
+        itemfound <- true
+
+END
+
+if itemfound != true
+    PUT not found
+
+--------------upgrade ship--------------
+
+levelup(level)
+
+    IF level == 2 AND points >=200 AND duration >= 2minutes
+        level <- 3 
+    DISPLAY upgrade
+    
+    ELSE
+        DISPLAY upgrade
+    END
+        
+
+--------------guess game--------------
+
+///num <- GET input positive number
+
+PROMPT for range
+GET range
+
+secret <- random(1, num)
+
+guessamount <- 0
+
+while guess != secret
+    guess <- GET input guess for the secret number
+    guessamount += 1
+
+
+
